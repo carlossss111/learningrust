@@ -1,0 +1,16 @@
+enum Coin {
+    Penny,
+    Two_Pence,
+    Five_Pence,
+}
+
+// The match can be used with enums to execute associated code.
+fn value_in_pence(coin: Coin) -> u8 {
+    match coin {
+        Coin::Penny => 1,
+        Coin::Two_Pence => 2,
+        Coin::Five_Pence => 5,
+    }
+}
+
+
