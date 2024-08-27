@@ -1,0 +1,6 @@
+* Crates are the smallest unit of code the Rust compiler considers.
+* Binary crates -> compiled and needs a main function
+* Library crates -> don't compile, provides functions 
+* Crate root -> source file that rust starts from 
+* Package -> bundle of >=1 crates 
+
